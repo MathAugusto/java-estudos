@@ -7,4 +7,7 @@ public interface Conta {
 	
 	public void saque(double valor);
 	
+	public double simulaEmprestimo(double cf, int n);
+	
+	
 }
